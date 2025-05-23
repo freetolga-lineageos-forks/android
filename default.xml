@@ -1017,4 +1017,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
   <include name="snippets/microg.xml" />
+  <include name="snippets/graphene.xml" />
 </manifest>
