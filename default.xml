@@ -42,7 +42,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="art" name="freetolga-lineageos-forks/android_art" groups="pdk" remote="github" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="freetolga-lineageos-forks/android_bootable_recovery" groups="pdk" />
@@ -1016,6 +1016,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
-  <include name="snippets/microg.xml" />
   <include name="snippets/graphene.xml" />
 </manifest>
